@@ -2,6 +2,22 @@
 ---
 
 @import "{{ site.theme }}";
+.navbar-brand{
+      display: block;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand img{
+    margin: 25px auto 18px;
+    width: 110px;
+    height: auto;
+    border: 0 !important;
+    box-shadow: 0 0 5px #ebebeb;
+    -webkit-box-shadow: 0 0 0 #ebebeb;
+    -moz-box-shadow: 0 0 0 #ebebeb;
+    -o-box-shadow: 0 0 0 #ebebeb;
+    -ms-box-shadow: 0 0 0 #ebebeb;
+}
 .container-wrapper{
   background-color: #fff;
 }
