@@ -1,53 +1,5 @@
-<header class="banner navbar navbar-default-basic col-md-12" role="banner">
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle hidden-lg-up" data-toggle="collapse"
-                        data-target="#wp-navbar-collapse" id="mobile-check">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="sr-only">Toggle navigation</span>
-                </button>
-                <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                    <img src="<?php echo get_template_directory_uri(); ?>/dist/images/wp_logo.png"
-                         alt="wp logo">
-                </a>
-            </div>
-            <div class="collapse navbar-collapse in" id="wp-navbar-collapse">
-                <ul>
-                  <li>
-                    <a href="#">Frontpage</a>
-                  </li>
-                  <li>
-                    <a href="#">Single page</a>
-                  </li>
-                  <li>
-                    <a href="#">Archive page</a>
-                  </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-<div class="wrap container-wrapper" role="document">
-      <div class="content row">
-        <main class="main">
-          <div class="breadcrumb">
-            <span class="echoed">
-              You are here:
-            </span>
-            <span class="echoed">
-              Home
-            </span>
-          </div>
-        </main>
-      </div>
- </div>
- <footer class="content-info">
-  <div class="container">
-    <div class="row small-row">
-      <div class="col-md-10 offset-cd-1">Last Update: 3/05/2017 - Created by AppSaloon</div>
-    </div>
-  </div>
-</footer>
+<h1>Lorem Ipsum</h1>
+<h2>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+"Er is niemand die van pijn zelf houdt, die het zoekt en die het hebben wil, eenvoudigweg omdat het pijn is..."</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a odio mauris. Maecenas vel scelerisque tortor, ut consectetur augue. Duis et mi posuere, sollicitudin ligula eu, aliquam lacus. Cras eu elit lacinia tortor venenatis ultricies. Mauris scelerisque tempor massa, sed sagittis massa tempor quis. Praesent lorem massa, rhoncus a ullamcorper nec, dictum ac enim. In efficitur interdum libero, vulputate sagittis ex molestie ut. Maecenas nec lectus nec turpis porta rutrum. Aliquam scelerisque justo quis metus egestas, ac euismod mauris porta. Donec mi risus, malesuada a iaculis ac, pretium eget enim. Vestibulum mauris neque, maximus et tellus vitae, tempus gravida enim. Sed sed sapien malesuada, sollicitudin libero nec, consequat lorem.</p>
