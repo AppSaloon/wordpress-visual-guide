@@ -45,9 +45,11 @@ header a{
     padding: 0 13px;
 }
 .container-wrapper{
-      background-color: #f5f5f5;
     padding: 0 15px;
     overflow: hidden;
+}
+.container-wrapper .content{
+      background-color: #f5f5f5;
 }
 footer{
  padding: 15px;
