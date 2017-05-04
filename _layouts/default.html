@@ -68,7 +68,7 @@
     <!-- FOOTER  -->
 <footer class="content-info">
     <div class="row">
-      <div class="col-md-10 offset-md-1"><p>Last Update: {% last_modified_at %Y:%B:%A:%d:%S:%R %} - maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p></div>
+      <div class="col-md-10 offset-md-1"><p>Last Update: {{ page.last_modified_at | date: '%Y:%B:%A:%d:%S:%R' }} - maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p></div>
     </div>
 </footer>
 </body>
