@@ -14,12 +14,29 @@
 
   <body>
 
-    <!-- HEADER -->
-  <div class="hooks action-info">
-    <h3>Action to add content to the head</h3>
-    <p><a href="http://hookr.io/4.6.1/actions/wp_head/">add_action( 'wp_head', 'action_wp_head', 10, 0 );</a></p>
+  <!-- HEAD -->
+  <div class="hover_border" data-toggle="modal" data-target="#modal_head">
+  </div>
+  <!-- Modal -->
+  <div id="modal_head" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content hooks action-info">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Action to add content to the head</h3>
+        </div>
+        <div class="modal-body">
+            <p><a href="http://hookr.io/4.6.1/actions/wp_head/">add_action( 'wp_head', 'action_wp_head', 10, 0 );</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
   </div>
  
+  <!-- HEADER -->
   <header class="banner navbar navbar-default-basic col-md-12" role="banner">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
@@ -68,7 +85,6 @@
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
-
   </div>
 </div>
         </div>
