@@ -13,6 +13,14 @@
   <body>
 
     <!-- HEADER -->
+  <div class="hooks action-info">
+    <h3>Action to add content to the head</h3>
+    <p><a href="http://hookr.io/4.6.1/actions/wp_head/">add_action( 'wp_head', 'action_wp_head', 10, 0 );</a></p>
+  </div>
+  <div class="hooks filter-info">
+    <h3>Filter to change wp_nav_menu()</h3>
+    <p><a href="http://hookr.io/filters/wp_nav_menu_items/">add_filter('wp_nav_menu_items', 'filter_wp_nav_menu_items', 10, 2); or remove_filter( 'wp_nav_menu_items', 'filter_wp_nav_menu_items', 10, 2 ); </a></p>
+  </div>
   <header class="banner navbar navbar-default-basic col-md-12" role="banner">
     <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
@@ -43,6 +51,7 @@
             </div>
         </div>
     </nav>
+   
      <nav class="breadcrumb">
             <span class="echoed">
               You are here:
@@ -66,6 +75,10 @@
  </div>
 
     <!-- FOOTER  -->
+  <div class="hooks action-info">
+    <h3>Action to add content before wp_footer()</h3>
+    <p><a href="http://hookr.io/4.6.1/actions/wp_footer/">add_action( 'wp_footer', 'your_function', 100 );</a></p>
+  </div>
 <footer class="content-info">
     <div class="row">
       <div class="col-md-10 offset-md-1"><p>Last Update: {{ page.last_modified_at | date: '%Y:%B:%A:%d:%S:%R' }} - maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p></div>
