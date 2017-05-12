@@ -15,7 +15,7 @@
   <body>
 
   <!-- HEAD -->
-  <div class="hover_border" data-toggle="modal" data-target="#modal_head">
+  <div class="hover_border head" data-toggle="modal" data-target="#modal_head">
   </div>
   <!-- Modal -->
   <div id="modal_head" class="modal fade" role="dialog">
@@ -113,14 +113,29 @@
  </div>
 
     <!-- FOOTER  -->
-  <div class="hooks action-info">
-    <h3>Action to add content before wp_footer()</h3>
-    <p><a href="http://hookr.io/4.6.1/actions/wp_footer/">add_action( 'wp_footer', 'your_function', 100 );</a></p>
-  </div>
-<footer class="content-info">
+<footer class="content-info hover_border" data-toggle="modal" data-target="#modal_footer">
     <div class="row">
-      <div class="col-md-10 offset-md-1"><p>Last Update: {{ page.last_modified_at | date: '%Y:%B:%A:%d:%S:%R' }} - maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p></div>
+      <div class="col-md-10 col-md-offset-1"><p>Last Update: {{ page.last_modified_at | date: '%Y:%B:%A:%d:%S:%R' }} - maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p></div>
     </div>
 </footer>
+    
+  <!-- Modal -->
+  <div id="modal_footer" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content hooks action-info">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="modal-title">Add data before the closing body tag</h3>
+        </div>
+        <div class="modal-body">
+            <p><a href="http://hookr.io/4.6.1/actions/wp_footer/">add_action( 'wp_footer', 'your_function', 100 );</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
