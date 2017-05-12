@@ -45,6 +45,8 @@ header a{
 #wp-navbar-collapse ul{
     text-align: center;
     padding-left: 0;
+    display: table;
+    margin: 0 auto;
 }
 #wp-navbar-collapse ul li{
     display: inline-block;
@@ -85,3 +87,11 @@ footer a, footer p{
 .hooks p{
     margin: 0;
 }
+
+.hover_border{
+      border: 2px dotted transparent;
+}
+.hover_border:hover{
+      border: 2px dotted #21769d;
+}
+      
