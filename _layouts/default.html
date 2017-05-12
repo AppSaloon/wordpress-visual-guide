@@ -113,12 +113,15 @@
  </div>
 
     <!-- FOOTER  -->
-<footer class="content-info hover_border" data-toggle="modal" data-target="#modal_footer">
+<footer class="content-info">
     <div class="row">
       <div class="col-md-10 col-md-offset-1"><p>Last Update: {{ page.last_modified_at | date: '%Y:%B:%A:%d:%S:%R' }} - maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p></div>
     </div>
 </footer>
     
+      <!-- FOOTER -->
+  <div class="hover_border footer" data-toggle="modal" data-target="#modal_footer">
+  </div>
   <!-- Modal -->
   <div id="modal_footer" class="modal fade" role="dialog">
     <div class="modal-dialog">
