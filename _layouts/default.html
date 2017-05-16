@@ -71,9 +71,9 @@
                   <li>
                     <a href="{{ '/'| relative_url}}">Frontpage</a>
                   </li>
-                  <li>
-                    <a href="{{ '/single'| relative_url}}">Post</a>
-                    <ul class="dropdown">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Post <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
                        <li>
                         <a href="{{ '/single'| relative_url}}">Single page</a>
                       </li>
@@ -82,9 +82,9 @@
                       </li>
                     </ul>
                   </li>
-                   <li>
-                    <a href="{{ '/single_custom_post_type'| relative_url}}">Custom Post Type</a>
-                    <ul class="dropdown">
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Custom Post Type <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
                         <li>
                           <a href="{{ '/single_custom_post_type'| relative_url}}">Single Custom Post Type</a>
                         </li>
