@@ -104,3 +104,9 @@ footer a, footer p{
 .content{
       padding: 15px;
 }
+.dropdown-menu {
+      display: none;
+}
+.open>.dropdown-menu {
+    display: block;
+}
