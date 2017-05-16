@@ -1,6 +1,5 @@
 <!-- THE_TITLE -->
-  <h1 class="hover_border title" data-toggle="modal" data-target="#modal_title">Lorem Ipsum
-  </h1>
+  <h1 class="hover_border title" data-toggle="modal" data-target="#modal_title">Lorem Ipsum</h1>
   <!-- Modal -->
   <div id="modal_title" class="modal fade" role="dialog">
     <div class="modal-dialog">
@@ -20,12 +19,9 @@
       </div>
     </div>
   </div>
-  
-  
-  
   <!-- THE_CONTENT -->
   <div class="hover_border content" data-toggle="modal" data-target="#modal_content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a odio mauris. Maecenas vel scelerisque tortor, ut consectetur augue. Duis et mi posuere, sollicitudin ligula eu, aliquam lacus. Cras eu elit lacinia tortor venenatis ultricies. Mauris scelerisque tempor massa, sed sagittis massa tempor quis. Praesent lorem massa, rhoncus a ullamcorper nec, dictum ac enim. In efficitur interdum libero, vulputate sagittis ex molestie ut. Maecenas nec lectus nec turpis porta rutrum. Aliquam scelerisque justo quis metus egestas, ac euismod mauris porta. Donec mi risus, malesuada a iaculis ac, pretium eget enim. Vestibulum mauris neque, maximus et tellus vitae, tempus gravida enim. Sed sed sapien malesuada, sollicitudin libero nec, consequat lorem.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a odio mauris. Maecenas vel scelerisque tortor, ut consectetur augue. Duis et mi posuere, sollicitudin ligula eu, aliquam lacus. Cras eu elit lacinia tortor venenatis ultricies. Mauris scelerisque tempor massa, sed sagittis massa tempor quis. Praesent lorem massa, rhoncus a ullamcorper nec, dictum ac enim. In efficitur interdum libero, vulputate sagittis ex molestie ut. Maecenas nec lectus nec turpis porta rutrum. Aliquam scelerisque justo quis metus egestas, ac euismod mauris porta. Donec mi risus, malesuada a iaculis ac, pretium eget enim. Vestibulum mauris neque, maximus et tellus vitae, tempus gravida enim. Sed sed sapien malesuada, sollicitudin libero nec, consequat lorem.</p>
   </div>
   <!-- Modal -->
   <div id="modal_content" class="modal fade" role="dialog">
@@ -46,6 +42,3 @@
       </div>
     </div>
   </div>
-
-
-
