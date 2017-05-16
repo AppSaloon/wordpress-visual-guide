@@ -49,7 +49,7 @@
                     <span class="icon-bar"></span>
                     <span class="sr-only">Toggle navigation</span>
                 </button>
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="{{ '/'| relative_url}}">
                    <img src="{{ '/assets/images/wp_visual_guide_logo.png'| relative_url}}" alt="logo WordPress Visual Guide" id="logo">
                 </a>
             </div>
@@ -60,18 +60,28 @@
                     <a href="{{ '/'| relative_url}}">Frontpage</a>
                   </li>
                   <li>
-                    <a href="{{ '/single'| relative_url}}">Single page</a>
+                    <a href="{{ '/single'| relative_url}}">Post</a>
+                    <ul class="dropdown">
+                       <li>
+                        <a href="{{ '/single'| relative_url}}">Single page</a>
+                      </li>
+                      <li>
+                        <a href="{{ '/archive'| relative_url}}">Archive page</a>
+                      </li>
+                    </ul>
+                  </li>
+                   <li>
+                    <a href="{{ '/single_custom_post_type'| relative_url}}">Custom Post Type</a>
+                    <ul class="dropdown">
+                        <li>
+                          <a href="{{ '/single_custom_post_type'| relative_url}}">Single Custom Post Type</a>
+                        </li>
+                        <li>
+                          <a href="{{ '/archive_custom_post_type'| relative_url}}">Archive Custom Post Type</a>
+                        </li>
+                    </ul>
                   </li>
                   <li>
-                    <a href="{{ '/single_custom_post_type'| relative_url}}">Single Custom Post Type</a>
-                  </li>
-                  <li>
-                    <a href="{{ '/archive'| relative_url}}">Archive page</a>
-                  </li>
-                  <li>
-                    <a href="{{ '/archive_custom_post_type'| relative_url}}">Archive Custom Post Type</a>
-                  </li>
-                    <li>
                     <a href="{{ '/events'| relative_url}}">Events page</a>
                   </li>
                 </ul>
