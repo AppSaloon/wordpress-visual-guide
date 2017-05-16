@@ -107,4 +107,6 @@ footer a, footer p{
 #wp-navbar-collapse li.dropdown ul.dropdown-menu {
       display: none;
 }
-
+#wp-navbar-collapse li.dropdown.open ul.dropdown-menu{
+      display: block;
+}
